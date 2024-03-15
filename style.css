@@ -303,6 +303,7 @@ img {
   display: flex;
   gap: 3rem;
 }
+/* BANNER MOBILE */
 @media screen and (max-width: 520px) {
   .banner__text h1 {
     font-size: 4rem;
@@ -340,11 +341,11 @@ img {
   display: flex;
   align-items: center;
 }
-/* .offer__wrapper {
+.offer__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-} */
+}
 .offer__text {
   max-width: 65rem;
   display: flex;
@@ -381,6 +382,10 @@ img {
 }
 /* OFFER MOBILE */
 @media screen and (max-width: 520px) {
+.offer__wrapper{
+  display: flex;
+  flex-direction: column;
+}
 .offer__text h2 {
   font-size: 4rem;
   text-align: center;
@@ -393,6 +398,7 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto;
   width: 80%;
 }
 }
