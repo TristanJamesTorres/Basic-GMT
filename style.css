@@ -456,7 +456,7 @@ img {
     font-size: 3rem;
     font-weight: 600;
     color: var(--secondary);
-}
+  }
 }
 /* HOW */
 .how {
@@ -548,6 +548,9 @@ img {
   justify-content: center;
   gap: 2rem;
 }
+.recommend__text ul.pindot li a{
+  width: 35rem;
+}
 /* RECOMMEND MOBILE */
 @media screen and (max-width: 520px) {
   .recommend__text h1 {
@@ -575,10 +578,6 @@ img {
 .footer {
   background: var(--primary);
   min-height: 300px;
-  gap: 2rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
 .footer__wrapper {
   display: flex;
@@ -590,7 +589,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
 .footer__nav ul.nav {
   display: flex;
@@ -607,7 +606,6 @@ img {
 .footer__nav ul.nav li:nth-child(6) a {
   color: var(--primary);
   background: var(--light);
-
   padding: 1rem 1.5rem;
   border-radius: 5rem;
   transition: 0.5s ease;
@@ -633,28 +631,9 @@ img {
   font-size: 3rem;
 }
 @media screen and (max-width: 520px) {
-  .footer__nav {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .footer__nav ul.nav {
     display: flex;
     flex-direction: column;
-  }
-  .footer__nav p {
-    display: flex;
-    gap: 2rem;
-  }
-  .footer__nav ul.social {
-    display: flex;
-    gap: 2rem;
-  }
-  .footer__nav ul.social li a {
-    color: var(--light);
-    font-size: 3rem;
   }
 }
 
